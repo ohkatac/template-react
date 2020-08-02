@@ -1,0 +1,22 @@
+{
+  "name": "react-tutorial",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/.bin/parcel ./src/index.html -p 3000 --hmr-port 5050 --hmr-hostname localhost",
+    "build": "node_modules/.bin/parcel build ./src/index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@hot-loader/react-dom": "^16.13.0",
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
+    "parcel-bundler": "^1.12.4",
+    "react-hot-loader": "^4.12.21",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
